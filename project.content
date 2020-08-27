@@ -1,2 +1,5 @@
-https%3A%2F%2Freqres.in\Users.xml
-RestSmokeTesting\TestCase-1.xml
+http%3A%2F%2Fthetestingworldapi.com\StudentsDetails.xml
+http%3A%2F%2Fthetestingworldapi.com-1\Id.xml
+SmokeTesting\TC_001_Add_New_Student.xml
+SmokeTesting\TC_002_Add_New_Student.xml
+SmokeTesting\TC_003_Get_Student_Details.xml

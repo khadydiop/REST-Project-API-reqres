@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="e205e763-a53f-4a1f-8a71-aa4ae7d9d428" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TC_003_Get_Student_Details" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="e205e763-a53f-4a1f-8a71-aa4ae7d9d428fileName">TC_003_Get_Student_Details</con:setting>
+  </con:settings>
+  <con:testStep type="restrequest" name="GetStudentData" id="8cae5972-a3de-4ddf-ae01-854dff0c60f5">
+    <con:settings/>
+    <con:config service="http://thetestingworldapi.com 1" resourcePath="/api/studentsDetails/{id}" methodName="Id" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="GetStudentData" id="30e6e1f4-aeaf-489e-b13f-d65b236b1977" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>http://thetestingworldapi.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>http://thetestingworldapi.com/api/studentsDetails/15</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="id" value="61928"/>
+        </con:parameters>
+        <con:parameterOrder>
+          <con:entry>id</con:entry>
+        </con:parameterOrder>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="b808dfe5-768e-46bf-9a10-e234961b8a01" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TC_002_Add_New_Student" searchProperties="true" timeout="0" disabled="true" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="b808dfe5-768e-46bf-9a10-e234961b8a01fileName">TC_002_Add_New_Student</con:setting>
+  </con:settings>
+  <con:testStep type="restrequest" name="Add_Student_InvalidData" id="186c8dbf-d2c5-4092-9b28-1e04ec796c49">
+    <con:settings/>
+    <con:config service="http://thetestingworldapi.com" resourcePath="/api/studentsDetails" methodName="StudentsDetails" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Add_Student_InvalidData" id="6583758d-cf24-4829-98f7-f027f79852bc" mediaType="application/json" postQueryString="false">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>http://thetestingworldapi.com</con:endpoint>
+        <con:request>{
+  "first_name": "Toto"
+  "date_of_birth": "2001-12-12"
+}</con:request>
+        <con:originalUri>http://thetestingworldapi.com/api/studentsDetails</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

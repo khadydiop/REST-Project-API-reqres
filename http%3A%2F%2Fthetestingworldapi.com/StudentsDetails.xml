@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="StudentsDetails" path="/api/studentsDetails" id="e38ac52b-556a-4089-ab5d-a077161c307e" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="e38ac52b-556a-4089-ab5d-a077161c307efileName">StudentsDetails</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="StudentsDetails" id="b94893bf-4482-4ac5-b5d8-5f89674a1ef8" method="POST">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>201</con:status>
+      <con:params/>
+      <con:element xmlns:stud="http://thetestingworldapi.com/api/studentsDetails">stud:Response</con:element>
+    </con:representation>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/json</con:mediaType>
+      <con:params/>
+    </con:representation>
+    <con:representation type="FAULT">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>400</con:status>
+      <con:params/>
+      <con:element xmlns:stud="http://thetestingworldapi.com/api/studentsDetails">stud:Fault</con:element>
+    </con:representation>
+    <con:request name="POSTStudentsDetails" id="6583758d-cf24-4829-98f7-f027f79852bc" mediaType="application/json" postQueryString="false">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>http://thetestingworldapi.com</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="1739adba-d05d-4092-8978-686c45e30a5f" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://thetestingworldapi.com 1" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="1739adba-d05d-4092-8978-686c45e30a5ffileName">http%3A%2F%2Fthetestingworldapi.com-1</con:setting>
+  </con:settings>
+  <con:definitionCache/>
+  <con:endpoints>
+    <con:endpoint>http://thetestingworldapi.com</con:endpoint>
+  </con:endpoints>
+</con:interface>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<con:testSuite id="14e69bb3-3896-4c41-af0f-13e59a67bdb3" name="RestSmokeTesting" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings>
-    <con:setting id="14e69bb3-3896-4c41-af0f-13e59a67bdb3fileName">RestSmokeTesting</con:setting>
-  </con:settings>
-  <con:runType>SEQUENTIAL</con:runType>
-  <con:properties/>
-  <con:reportParameters/>
-</con:testSuite>
